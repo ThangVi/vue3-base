@@ -1,5 +1,22 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <h1>default layout</h1>
-  <slot />
+  <div class="wrapper">
+    <Header />
+    <slot />
+  </div>
 </template>
+
+<script>
+import { defineComponent } from "vue";
+import Header from "@/components/header";
+
+export default defineComponent({
+  name: "DefaultLayout",
+  components: { Header },
+});
+</script>
+
+<style lang="scss" scoped>
+.wrapper {
+  min-height: 100vh;
+}
+</style>

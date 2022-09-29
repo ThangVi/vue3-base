@@ -14,12 +14,16 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "ant-design-vue": "^3.2.11",
+    "axios": "^0.27.2",
     "core-js": "^3.8.3",
+    "lodash": "^4.17.21",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
+    "vue-tsc": "^0.40.13",
     "vuex": "^4.0.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.185",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@vue/cli-plugin-babel": "~5.0.0",
